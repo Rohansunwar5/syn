@@ -18,7 +18,7 @@ const HomePage = () => {
   return (
     <>
       <section
-        className=" overflow-hidden
+        className=" overflow-auto
       px-4
       sm:px-6
       mt-10
@@ -87,7 +87,7 @@ const HomePage = () => {
       </section>
       <section className="relative">
         <div
-          className="overflow-hidden
+          className="overflow-auto
           flex
           after:content['']
           after:dark:from-brand-dark
@@ -210,7 +210,7 @@ const HomePage = () => {
           sm:px-6 
           flex
           flex-col
-          overflow-x-hidden
+          overflow-x-auto
           overflow-visible
         "
         >
