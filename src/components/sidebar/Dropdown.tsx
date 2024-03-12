@@ -321,7 +321,7 @@ const Dropdown: React.FC<DropdownProps> = ({
           gap-4 
           items-center 
           justify-center 
-          overflow-hidden"
+          overflow-auto"
           >
             <div className="relative">
               <EmojiPicker getValue={onChangeEmoji}>{iconId}</EmojiPicker>
@@ -330,7 +330,7 @@ const Dropdown: React.FC<DropdownProps> = ({
               type="text"
               value={listType === 'folder' ? folderTitle : fileTitle}
               className={clsx(
-                'outline-none overflow-hidden w-[140px] text-Neutrals/neutrals-7',
+                'outline-none overflow-auto w-[140px] text-Neutrals/neutrals-7',
                 {
                   'bg-muted cursor-text': isEditing,
                   'bg-transparent cursor-pointer': !isEditing,

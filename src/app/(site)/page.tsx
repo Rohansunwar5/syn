@@ -18,7 +18,7 @@ const HomePage = () => {
   return (
     <>
       <section
-        className=" overflow-auto
+        className=" overflow-hidden
       px-4
       sm:px-6
       mt-10
@@ -52,7 +52,7 @@ const HomePage = () => {
             bg-background
           "
           >
-            Get Cypress Free
+            Get Synthify Free
           </Button>
         </div>
         <div
@@ -87,7 +87,7 @@ const HomePage = () => {
       </section>
       <section className="relative">
         <div
-          className="overflow-auto
+          className="overflow-hidden
           flex
           after:content['']
           after:dark:from-brand-dark
@@ -210,7 +210,7 @@ const HomePage = () => {
           sm:px-6 
           flex
           flex-col
-          overflow-x-auto
+          overflow-x-hidden
           overflow-visible
         "
         >

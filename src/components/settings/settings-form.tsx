@@ -297,7 +297,7 @@ const SettingsForm = () => {
               <ScrollArea
                 className="
             h-[120px]
-            overflow-y-scroll
+            overflow-y-auto
             w-full
             rounded-md
             border
@@ -321,7 +321,7 @@ const SettingsForm = () => {
                           className="text-sm 
                           gap-2
                           text-muted-foreground
-                          overflow-hidden
+                          overflow-auto
                           overflow-ellipsis
                           sm:w-[300px]
                           w-[140px]
